@@ -41,7 +41,7 @@ ssubmit=st.button("Let's go!")
 Input_prompt="""
 You are an expert in understanding invoices. 
 We will upload a image as invoices 
-and you will have to answer any questions based on the uploaded invoice image
+and you will have to answer any questions based on the uploaded invoice image and Split the bill 
 Make sure to greet the user first and then provide the information as suited.
 Make sure to keep the font uniform and give the items list in a point-wise format.
 At the end, make sure to repeat the name of our app "RoboBill 🦾" and ask the user to use it again.
