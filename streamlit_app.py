@@ -3,7 +3,7 @@ import os #picking up env vars
 from PIL import Image
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyATMX1iUWmkpPLoUwbV3FY88GceMdBKGKY") #config.
+genai.configure(api_key="AIzaSyBItsxvy3j2x7zjr6c_36L982NN1tnimts") #config.
 
 #function to load gemini pro vision
 model=genai.GenerativeModel('gemini-1.5-flash')
@@ -26,7 +26,6 @@ def input_image_details(uploaded_file):
 #init streamlit
 st.set_page_config(page_title="Multilanguage Invoice Extractor")
 st.sidebar.header("RoboBill🦾")
-st.sidebar.write("Made by Shambhavi Tiwari.")
 st.sidebar.write("Assistant used is Gemini Pro Vision.")
 st.header("RoboBill 🦾")
 st.subheader("Manage your expenses with the help of the robot!")
